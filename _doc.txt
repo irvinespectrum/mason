@@ -1,0 +1,31 @@
+建立專案
+ng new my-app
+
+Angular 開發
+http://localhost:4200/
+ng serve
+
+編譯
+ng build
+
+測試
+ng test
+ng e2e
+
+Git 設置
+git init
+git commit -m "first commit"
+git remote add origin https://github.com/irvinespectrum/mason.git
+git push -u origin master
+
+Git Production 設置
+git init
+git commit -m "first commit"
+git remote add origin https://github.com/irvinespectrum/page.git
+git push -u origin master
+
+
+
+git add .
+git commit -m "second commit"
+git push -u origin master
