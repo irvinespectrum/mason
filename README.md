@@ -26,6 +26,14 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ng update @angular/core
 
+## update npm dependencies
+
+npm install -g npm-check-updates
+ncu -u
+npm install
+
+npm install hoek --save-dev && npm uninstall hoek --save-dev
+
 ## Git 設置
 
 git init
