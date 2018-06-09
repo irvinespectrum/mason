@@ -26,6 +26,19 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ng update @angular/core
 
-## Further help
+## Git 設置
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+git init
+git commit -m "first commit"
+git remote add origin https://github.com/irvinespectrum/mason.git
+git push -u origin master
+
+Git Production 設置
+git init
+git commit -m "first commit"
+git remote add origin https://github.com/irvinespectrum/page.git
+git push -u origin master
+
+git add .
+git commit -m "second commit"
+git push -u origin master
